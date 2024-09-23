@@ -8,6 +8,15 @@
 
 ### Shaders
 
+From Unity Store:
+
+- Stylized Lava Texture
+
+- Stylized Lava PBR Texture
+
+- Yughues Free Metal Materials 
+
+
 ### Soundtrack
 
 #### Ambient Music 1:
