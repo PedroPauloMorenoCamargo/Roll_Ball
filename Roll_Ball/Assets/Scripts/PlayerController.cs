@@ -66,12 +66,16 @@ public class PlayerController : MonoBehaviour{
         alarmeAudioSource = gameObject.AddComponent<AudioSource>();
         alarmeAudioSource.clip = alarmClip;
         alarmeAudioSource.playOnAwake = false;
+        alarmeAudioSource.volume = 0.7f;
 
 
         musicaAudioSource = gameObject.AddComponent<AudioSource>();
         musicaAudioSource.clip = musicClip;
-        musicaAudioSource.playOnAwake = true; 
-        musicaAudioSource.loop = true; 
+        musicaAudioSource.playOnAwake = true;
+        musicaAudioSource.loop = true;
+        musicaAudioSource.volume = 0.1f;
+        musicaAudioSource.Play();
+
 
 
         deathAudioSource = gameObject.AddComponent<AudioSource>();
@@ -139,11 +143,10 @@ public class PlayerController : MonoBehaviour{
         }
 
         if (collision.gameObject.CompareTag("Arena")){
-            if (musicaAudioSource.isPlaying){
-                musicaAudioSource.Stop();
-            }
-
+            
             if (!isPlaying){
+                Debug.Log("Music stopped.");
+                musicaAudioSource.mute = true;
                 alarmeAudioSource.Play();
                 isPlaying = true;
             }

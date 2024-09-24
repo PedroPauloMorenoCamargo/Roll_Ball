@@ -38,6 +38,7 @@ public class Boss : MonoBehaviour{
         Boss_Music = gameObject.AddComponent<AudioSource>();
         Boss_Music.clip = boss_Music_Clip;
         Boss_Music.playOnAwake = false;
+        Boss_Music.volume = 0.5f;
 
         i = 0;
         j = 0;
