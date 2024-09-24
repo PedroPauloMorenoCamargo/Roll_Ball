@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour{
     }
 
     void Update(){
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded){
+        if ((Input.GetKeyDown(KeyCode.Space)|| Input.GetKeyDown(KeyCode.JoystickButton1)) && isGrounded){
             isJumping = true;
 
             if (jumpAudioSource != null && jumpClip != null){
