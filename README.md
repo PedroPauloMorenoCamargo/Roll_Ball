@@ -1,12 +1,21 @@
 # Roll_Ball
 
-## Projeto no Dropbox:
+## Projeto no Dropbox com os materiais, uma vez que eles possuem pngs grandes demais para postar no github:
 
 - https://www.dropbox.com/scl/fi/9ww8zqbfwzz5rlkoz5eys/Roll_Ball.zip?rlkey=po583iglwd7uxs7fw4gpfvxfk&st=xn7z24us&dl=0
 
 ## References
 
 ### Shaders
+
+From Unity Store:
+
+- Stylized Lava Texture
+
+- Stylized Lava PBR Texture
+
+- Yughues Free Metal Materials 
+
 
 ### Soundtrack
 
